@@ -26,8 +26,9 @@ def text_cnn(region_sizes):
     X = Dense(1, activation='sigmoid')(X)
     return Model(inputs=i, outputs=X)
 
-text_cnn([7, 0])
+# Examples.
 
+text_cnn([7, 0])
 text_cnn([3, 4, 0, 0])
 ```
 
