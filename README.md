@@ -4,6 +4,7 @@ With adaptive number and size of filters.
 
 - `text_to_embedding.ipynb`: Convert text to word embeddings.
 - `textcnn.ipynb`: Model selection, predictions and all others stuff.
+- `labelled.txt.zip`: Labelled Chinese texts, spam for 1 or normal for 0.
 
 Key part:
 
