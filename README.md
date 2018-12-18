@@ -25,6 +25,10 @@ def text_cnn(region_sizes):
     X = Dropout(0.5, seed=seed)(X)
     X = Dense(1, activation='sigmoid')(X)
     return Model(inputs=i, outputs=X)
+
+text_cnn([7, 0])
+
+text_cnn([3, 4, 0, 0])
 ```
 
 Inspired by [Kim (2014)](https://www.aclweb.org/anthology/D14-1181) and [Zhang et al. (2015)](https://arxiv.org/abs/1510.03820).
