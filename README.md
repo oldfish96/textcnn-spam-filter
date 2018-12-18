@@ -27,7 +27,6 @@ def text_cnn(region_sizes):
     return Model(inputs=i, outputs=X)
 
 # Examples.
-
 text_cnn([7, 0])
 text_cnn([3, 4, 0, 0])
 ```
