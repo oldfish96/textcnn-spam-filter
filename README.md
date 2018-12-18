@@ -5,7 +5,7 @@ With adaptive number and size of filters.
 - `text_to_embedding.ipynb`: Convert text to word embeddings.
 - `textcnn.ipynb`: Model selection, predictions and all others stuff.
 
-Key part of this repo:
+Key part:
 
 ```python
 def text_cnn(region_sizes):
