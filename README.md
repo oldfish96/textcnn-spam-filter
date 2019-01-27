@@ -2,6 +2,8 @@
 
 With adaptive number and size of filters.
 
+File description:
+
 - [`text_to_embedding.ipynb`](https://github.com/idorce/textcnn_spam_filter/blob/master/text_to_embedding.ipynb): Convert text to word embeddings.
 - [`textcnn.ipynb`](https://github.com/idorce/textcnn_spam_filter/blob/master/textcnn.ipynb): Model selection, predictions and all others stuff.
 - `labelled.txt.zip`: Labelled Chinese texts, spam for 1 or normal for 0.
